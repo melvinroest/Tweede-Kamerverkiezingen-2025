@@ -21,7 +21,7 @@ Controleer informatie die jij belangrijk vindt in de originele verkiezingsprogra
 
 ## Hoe zijn de verkiezingsprogramma's (in PDF) verwerkt naar een tekstbestand?
 
-De verkiezingsprogramma's zijn gedownload van het [Rijksuniversiteit Groningen](https://www.rug.nl/research/dnpp/verkiezingen/tweede-kamer/tk-verkiezingen-2025) en vervolgens van PDF verwerkt naar `.txt` bestand. Ik heb de volgende script op een Mac (M1) uitgevoerd in een `zsh` omgeving.
+De verkiezingsprogramma's zijn gedownload van de [Rijksuniversiteit Groningen](https://www.rug.nl/research/dnpp/verkiezingen/tweede-kamer/tk-verkiezingen-2025) en vervolgens van PDF verwerkt naar `.txt` bestand. Ik heb de volgende script op een Mac (M1) uitgevoerd in een `zsh` omgeving.
 
 ```zsh
 for f in *.(pdf|PDF)(.N); do
